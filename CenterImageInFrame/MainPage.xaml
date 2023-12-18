@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CenterImageInFrame.MainPage">
+
+    <Frame BorderColor="Transparent" 
+       CornerRadius="8" 
+       WidthRequest="780" 
+       HeightRequest="640"  
+       HorizontalOptions="Fill" 
+       Margin="130"  
+       x:Name="ImageFrame"
+       BackgroundColor="LightGreen">
+        <Image Margin="-20" 
+           x:Name="MainImage" 
+           HorizontalOptions="Center"
+           VerticalOptions="Center"
+           Aspect="Fill"
+           Source="frog.png"/>
+    </Frame>
+
+</ContentPage>
