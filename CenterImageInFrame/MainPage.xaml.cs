@@ -5,10 +5,9 @@ namespace CenterImageInFrame
     public partial class MainPage : ContentPage
     {
         public MainPage() => InitializeComponent();
-        void foo()
-        {
-            var aspect = Aspect.AspectFill;
-        }
+
+        // Just want to be able to hover over the value to see the intellisense helep here.
+        Aspect Aspect => Aspect.AspectFill;
 
         protected override void OnAppearing()
         {
